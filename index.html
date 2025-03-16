@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <header>
+        <!-- header section with the ordered list in roman numbers -->
+        <ol type="i">
+            <li><a href="#">full stack wb developent</a></li>
+            <li><a href="#">software testing</a></li>
+            <li><a href="#">mobile development</a></li>
+            <li><a href="#">AI </a></li>
+        </ol>
+    </header>
+    <main>
+        <!-- main section with main content  of the html document -->
+        <section>
+            <!-- landing section -->
+            <h1>TECHNOLOGIES</h1>
+            <img src="https://media.istockphoto.com/id/1321462048/photo/digital-transformation-concept-system-engineering-binary-code-programming.jpg?b=1&s=612x612&w=0&k=20&c=5S5LGG4cZl8DE3T-kD5ZYQRZMntgYg4E2IQAB-VJjqg=" alt="a woman looking a coputer hologram sreen" width="300PX">
+        </section>
+        <section>
+            <!-- section with the table amd registration form -->
+            <h2>TABLE</h2>
+            <table style="border: 1px solid gray;">
+                <tr >
+                    <th>NAME</th>
+                    <th>ADDRESS</th>
+                    <th>MOBILE</th>
+                    <th>EMAIL</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>1234</td>
+                        <td>+245 77 </td>
+                        <td>Johndoe@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mark li</td>
+                        <td>1234</td>
+                        <td>+245 77 </td>
+                        <td>Markli@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jeff </td>
+                        <td>1234</td>
+                        <td>+245 77 </td>
+                        <td>Jeff@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr style="border: 3px solid dodgerblue;">
+            <h4>
+                <!-- registration form -->
+                <form action="index.html" method="post" style="border: 1px solid gray; max-width: 200px;">
+                    <h5>REGISTRATION FORM</h5>
+                    <label for="username">NAME:</label><br>
+                    <input type="text" placeholder="fullName" required id="name"><br>
+                    <br>
+                    <label for="password">PASSWORD:</label><br>
+                    <input type="password" placeholder="password" required id="password"><br>
+                    <br>
+                    <label for="date">DATE:</label><br>
+                    <input type="date" placeholder="Date" required id="date"><br>
+                    <!-- drop down menu for seletion of different options as provided -->
+                    <select id="selection-dropdown">
+                        <option value="tech">web technologies</option>
+                        <option value="tech">web technologies</option>
+                        <option value="tech">web technologies</option>
+                        <option value="tech">web technologies</option>
+                        <option value="tech">web technologies</option>
+                    </select>
+                    <br><br>
+                    <!-- radio input for selection of the gender -->
+                         <h5>select your gender</h5>
+                    <input type="radio" name="gender">
+                    <label for="gender-male">male</label>
+                       <br>
+                    <input type="radio" name="gender">
+                    <label for="gender-female">Female</label>
+
+                <br><br> <input type="submit">
+                </form>
+            </h4>
+        </section>
+    </main>
+</body>
+</html>
